@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(44, 34, 34);
+}
+
+.principal {
+    height: 100vh;
+    width: 100%;
+    padding: 20px 60px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 27px;
+}
+
+.porto {
+    color: black;
+    font-size: 60px;
+    margin-right: 90px;
+}
+
+.porto span {
+    color: yellowgreen;
+}
+
+
+li {
+    color: yellowgreen;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  
+ 
+}
+
+li:hover {
+    color:white;
+    transition: 0.8s;
+}
+
+.eu {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+h1 {
+    color: black;
+    font-size: 60px;
+}
+
+h1 span {
+    color: yellowgreen;
+}
+
+.eu h3 {
+    color: rgba(0, 0, 0, 0.877);
+    font-size: 27px;
+
+}
+
+.eu img {
+    display: flex;
+    height: 200px;
+    margin-left: 720px;
+    position: absolute;
+    top: -90px;
+    border-radius: 700px;
+    border-color: black;
+}
+
+
+
+section img {
+    height: 280px;
+    border-radius: 100%;
+    margin-right: 40px;
+    margin-left: 150px;
+    background: rgba(0, 0, 0, 0.50);
+    border: 4px solid yellow;
+   
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 120px;
+}
+
+section div h2 {
+    color: black;
+    font-size: 55px;
+    font-family: inherit;
+    margin-left: 50px;
+}
+
+section div p {
+    color: bisque;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    
+}
+
+section div button {
+    color: rgb(17, 10, 1);
+    background: yellow;
+    height: 30px;
+    width: 140px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50%;
+}
+
+section div button:hover {
+    background-color: green;
+    border: 4px solid maroon;
+    transition: 5s;
+    cursor: pointer;
+
+
+
+}
+.progra {
+    
+    display: inline-block;
+    
+}
+.progra h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 90px;
+
+}
+.all-projects{
+    display: flex;
+    padding: 20px;
+   
+}
+
+.pro {
+
+    height: 380px;
+    width: 360px;
+    border-radius: 15%;
+    padding: 10px 40px;
+    text-align: center;
+    margin-left: 60px;
+    background-color: white;
+    
+}
+
+.pro img {
+    height: 80px;
+    border-radius: 100%;
+
+}
+
+.pro h5 {
+    color: white;
+    font-size: 18px;
+    margin: 20px 20px;
+    border-radius: 30px;
+
+
+}
+
+.pro p {
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding: 13px;
+    font-size: 15px;
+
+
+}
+
+.pro a {
+    color:yellow;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.pro a:hover {
+
+    border: 4px solid blue;
+
+}
+
+.petmy{
+    height: 380px;
+    width: 360px;
+    border-radius: 15%;
+    padding: 10px 40px;
+    text-align: center;
+    margin-left: 60px;
+    background-color: white;
+
+}
+
+.petmy img {
+    height: 80px;
+    border-radius: 100%;
+
+}
+
+.petmy h4 {
+    color: white;
+    font-size: 20px;
+    margin: 20px 20px;
+    border-radius: 30px;
+
+
+}
+
+.petmy p {
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding: 13px;
+
+
+}
+
+.petmy a {
+    color: yellow;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.petmy a:hover {
+
+    border: 4px solid blue;
+}
+
+.temp{
+    height: 380px;
+    width: 360px;
+    border-radius: 15%;
+    padding: 10px 40px;
+    text-align: center;
+    margin-left: 60px;
+    background-color: white;
+
+}
+
+.temp img {
+    height: 80px;
+    border-radius: 100%;
+
+}
+
+.temp h4 {
+    color: white;
+    font-size: 23px;
+    margin: 20px 20px;
+    border-radius: 30px;
+
+
+}
+
+.temp p {
+    color: white;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding: 13px;
+
+
+}
+
+.temp a {
+    color: yellow;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  
+
+}
+
+.temp a:hover {
+
+    border: 4px solid blue;
+}
+
+footer {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    color: white;
+    font-size: 25px;
+
+}
+
+footer p {
+    color: black;
+    font-size: 12px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.contato {
+    display: flex;
+    gap: 15px;
+
+}
+
+.contato img {
+    height: 28px;
+    border-radius: 40px;
+    margin-bottom: 0;
+
+
+}
+
+.contato a {
+    background-color: yellow;
+    color: yellow;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.contato a:hover {
+    transform: scale(1.6);
+    transition: 5s;
+
+}
+
+.senhor p {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: white;
+
+}
