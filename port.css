@@ -9,7 +9,6 @@
 .principal {
     height: 100vh;
     width: 100%;
-    padding: 20px 60px;
 
 }
 
@@ -18,9 +17,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 30px;
     padding-top: 27px;
 }
+
 
 .porto {
     color: black;
@@ -39,12 +39,13 @@ li {
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
-  
- 
+    margin-right: 30px;
+
+
 }
 
 li:hover {
-    color:white;
+    color: white;
     transition: 0.8s;
 }
 
@@ -71,8 +72,8 @@ h1 span {
 
 .eu img {
     display: flex;
-    height: 200px;
-    margin-left: 720px;
+    height: 230px;
+    margin-left: 650px;
     position: absolute;
     top: -90px;
     border-radius: 700px;
@@ -82,21 +83,21 @@ h1 span {
 
 
 section img {
-    height: 280px;
+    height: 350px;
     border-radius: 100%;
     margin-right: 40px;
     margin-left: 150px;
     background: rgba(0, 0, 0, 0.50);
     border: 4px solid yellow;
-   
 }
 
 
 section {
-    display: flex;
+    display:flex;
     align-items: center;
-    padding: 10px 0;
-    margin-top: 120px;
+    padding: 30px 0;
+
+   
 }
 
 section div h2 {
@@ -111,14 +112,14 @@ section div p {
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 18px;
-    
+
 }
 
 section div button {
     color: rgb(17, 10, 1);
     background: yellow;
-    height: 30px;
-    width: 140px;
+    height: 50px;
+    width: 180px;
     font-size: 15px;
     border: none;
     border-radius: 50%;
@@ -129,15 +130,14 @@ section div button:hover {
     border: 4px solid maroon;
     transition: 5s;
     cursor: pointer;
-
-
-
 }
+
 .progra {
-    
+
     display: inline-block;
-    
+
 }
+
 .progra h2 {
     color: white;
     font-size: 50px;
@@ -146,10 +146,11 @@ section div button:hover {
     margin-top: 90px;
 
 }
-.all-projects{
+
+.all-projects {
     display: flex;
     padding: 20px;
-   
+
 }
 
 .pro {
@@ -161,7 +162,7 @@ section div button:hover {
     text-align: center;
     margin-left: 60px;
     background-color: white;
-    
+
 }
 
 .pro img {
@@ -190,7 +191,7 @@ section div button:hover {
 }
 
 .pro a {
-    color:yellow;
+    color: yellow;
     padding: 5px 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -203,7 +204,7 @@ section div button:hover {
 
 }
 
-.petmy{
+.petmy {
     height: 380px;
     width: 360px;
     border-radius: 15%;
@@ -251,7 +252,7 @@ section div button:hover {
     border: 4px solid blue;
 }
 
-.temp{
+.temp {
     height: 380px;
     width: 360px;
     border-radius: 15%;
@@ -291,7 +292,7 @@ section div button:hover {
     padding: 5px 10px;
     border-radius: 50%;
     cursor: pointer;
-  
+
 
 }
 
